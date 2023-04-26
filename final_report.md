@@ -100,12 +100,13 @@ Looking at the image, we can say that the graph is skewed to the left,
 but the profile report gives the exact value of skewness.
 
 ![Graphical user interface, application Description automatically
-generated](media/image3.png){width="6.208333333333333in"
-height="2.48336176727909in"}
+generated](media/image3.png)
 
 **Fig. 3. Pandas Profile Report consisting of Quantile and Descriptive
 Statistics for area_mean**
 
+![Graphical user interface, application Description automatically
+generated](media/image3-2.png)
 **Fig. 4. Pandas Profile Report consisting of Histogram for area_mean**
 
 2.  Exploratory Data Analysis: We plotted a Heatmap (Fig. 5) with
