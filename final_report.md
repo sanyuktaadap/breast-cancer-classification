@@ -106,10 +106,6 @@ height="2.48336176727909in"}
 **Fig. 3. Pandas Profile Report consisting of Quantile and Descriptive
 Statistics for area_mean**
 
-![Graphical user interface, application Description automatically
-generated](media/image3.png){width="6.268055555555556in"
-height="2.7388199912510935in"}
-
 **Fig. 4. Pandas Profile Report consisting of Histogram for area_mean**
 
 2.  Exploratory Data Analysis: We plotted a Heatmap (Fig. 5) with
