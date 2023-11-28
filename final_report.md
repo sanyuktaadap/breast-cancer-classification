@@ -2,7 +2,7 @@ Sanyukta Adap
 
 HI 2454 Data Science in Health Informatics
 
-Date: 04/19/2023
+Date: 04/25/2023
 
 **[Analytical and Machine Learning Approaches to Classify Breast
 Cancer]{.underline}**
@@ -38,7 +38,7 @@ suspected after an FNA, the sample is examined to look for cancer cells.
 
 This dataset uses the morphological features of the nuclei of these
 cells as attributes to predict the presence of malignant or
-benign breast cancer. It had 33 columns that comprise of the ID,
+benign breast cancer. It had 33 columns that comprised the ID,
 Diagnosis (M = malignant, B = benign) and Nuclear features. The Mean,
 standard error (se), and worst (mean of the three largest values) of
 each feature were calculated for every image, resulting in 30 features.
@@ -85,7 +85,7 @@ takes into consideration the false negatives.
 **Results and Conclusions:**
 
 1.  Statistics: With pandas profiling, we could determine the number of
-    variables, no of observations, missing values, etc., about the
+    variables, no. of observations, missing values, etc., about the
     dataset as a whole (Fig.2). Additionally, it also shows descriptive
     and quantile statistics of each attribute in the dataset. This
     consists of missing values, range, minimum, mean, maximum, standard
@@ -109,7 +109,7 @@ Statistics for area_mean**
 generated](media/image3-2.png)
 **Fig. 4. Pandas Profile Report consisting of Histogram for area_mean**
 
-2.  Exploratory Data Analysis: We plotted a Heatmap (Fig. 5) with
+2.  Exploratory Data Analysis: We plotted a heat map (Fig. 5) with
     normalized values of training data to determine the direct
     correlation between the variables. If we look closely at the darker
     shades of blue in the heatmap, we can observe that features related
@@ -134,10 +134,10 @@ features that show a strong correlation with the label (diagnosis)**
 3.  Dimensionality Reduction with PCA: We performed PCA on all 30
     features to obtain 30 new features with the variance of the
     distribution of data in the decreasing order shown in Fig. 7. The
-    first point in the output shows the new features in decreasing order
+    the first point in the output shows the new features in decreasing order
     of variance, that is, how well they distribute and spread the data.
     The 2^nd^, 3rd, and the points further down show the combined
-    variance value of the first 2, first 5, ...upto the first 20
+    variance value of the first 2, first 5, ... up to the first 20
     features. For example, with just the first 10 features obtained by
     PCA, we can distinguish approx. 96% of the data! The reason why
     these new features are better is that the more the data is spread,
@@ -197,7 +197,7 @@ The precision of DT and RF models of the training set is 1, but the
 corresponding test set has a significantly lower precision. This means
 that these test set models have a higher number of false positives. The
 other models, in contrast, have a slightly lower precision score for the
-training set. This show that they have a few false positives.
+training set. This shows that they have a few false positives.
 
 For the test set, LR, SVM, and KNN have a precision of 1. This means
 that there are no false positives. The model that has the best
@@ -221,7 +221,7 @@ had the best overall model performance.
 > height="2.675in"}According to the plot, the models\' performances do
 > not improve as we increase the number of features from 5 to 30.
 > (Except KNN which stops increasing after 15). This means that just the
-> top 5 (15 for KNN) PCA features are needed to achieve the best
+> Top 5 (15 for KNN) PCA features are needed to achieve the best
 > possible performance.
 >
 > However, the best model under PCA still doesn\'t perform as well as
