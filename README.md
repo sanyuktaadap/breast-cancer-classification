@@ -8,3 +8,4 @@ Dataset Analysis and ML models for classifying data into Benign and Malignant
 - Dataset preparation functions are in the [data_utils.py](./data_utils.py) file.
 - ML training logic can be found in the [ml_utils.py](./ml_utils.py) file.
 - All the data used can be found in the [data](./data/) folder.
+- Final findings and a systematics report can be found in the [final report](./final_report.md) file.
