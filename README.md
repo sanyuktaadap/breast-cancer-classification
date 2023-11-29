@@ -1,4 +1,4 @@
-# breast-cancer-classification
+# Breast Cancer Classification
 Dataset Analysis and ML models for classifying data into Benign and Malignant
 
 - To run data analysis, run the [`breast_cancer_dataset_analysis.ipynb`](./breast_cancer_dataset_analysis.ipynb) notebook.
